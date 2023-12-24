@@ -45,7 +45,7 @@ app.get('/data',(req:Request, resp:Response): void  => {
 app.post('/data', (req:Request, resp:Response): void => {
   // Process POST requests here...
   console.log('Post query' + JSON.stringify(req.query));
-  resp.status(2send('Post response is on the way...(maybe...)\n' + 
+  resp.status(200).send('Post response is on the way...(maybe...)\n' + 
   	        JSON.stringify(req.query));
 });
 
