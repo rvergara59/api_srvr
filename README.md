@@ -1,8 +1,8 @@
-# Basic API server (Node.js + Express.js and TypeScript)
+# Basic API server (Node.js + Express.js, TypeScript version)
 
 ## Abstract
 
-A basic functional template for creating an API server using Node.js + Express.js and TypeScript. 
+A basic functional template for creating an API server using Node.js + Express.js using TypeScript. 
 
 ## Test
 
@@ -12,6 +12,9 @@ The template is functional and you can test it using HTTPie, curl or Postman.
 
 ```
 $>npm run dev
+```
+
+Response 
 
 > api_srvr@1.0.0 dev
 > nodemon ./src/apisrvr.ts
@@ -25,7 +28,6 @@ Basic API Server listening on Port:3000
 TypeScript Version
 Press Ctrl-C to exit
 
-```
 
 ### Test with HTTPie
 
@@ -33,6 +35,10 @@ Using another terminal, run the following wommand
 
 ```
 $>http localhost:3000/
+```
+
+Response
+
 HTTP/1.1 200 OK
 Connection: keep-alive
 Content-Length: 16
@@ -45,4 +51,4 @@ X-Powered-By: Express
 Main page loaded
 
 $>
-```
+
