@@ -11,7 +11,7 @@ The template is functional and you can test it using HTTPie, curl or Postman.
 ### Start the API server
 
 ```
-npm run dev
+$>npm run dev
 
 > api_srvr@1.0.0 dev
 > nodemon ./src/apisrvr.ts
@@ -31,8 +31,8 @@ Press Ctrl-C to exit
 
 Using another terminal, run the following wommand
 
-...
-$> http localhost:3000/
+```
+$>http localhost:3000/
 HTTP/1.1 200 OK
 Connection: keep-alive
 Content-Length: 16
@@ -45,4 +45,4 @@ X-Powered-By: Express
 Main page loaded
 
 $>
-...
+```
